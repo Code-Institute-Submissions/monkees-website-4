@@ -1,0 +1,14 @@
+footer, header{background-color: grey;
+       min-height: 100px; 
+}
+
+body {
+    background-image: url("/band-assets/images/monkees.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    
+}
+
+
+
