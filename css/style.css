@@ -120,10 +120,17 @@ footer {
 
 /* ................................................................................................Styling Headers */
 
-.heyhey {
+.song-line-1 {
     text-align: center;
     font-family: "Rock Salt", sans-serif;
     font-size: 50px;
+    color: black;
+}
+
+.song-line-2 {
+    text-align: center;
+    font-family: "Rock Salt", sans-serif;
+    font-size: 35px;
     color: black;
 }
 
