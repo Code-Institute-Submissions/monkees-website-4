@@ -50,8 +50,6 @@ footer {
 
 /* ................................................................................................Styling Universal Main Menu */
 
-
-
 .mainmenustyle {
     font-family: "rock salt", sans-serif;
     font-size: 20px;
@@ -63,9 +61,11 @@ footer {
     padding-top: 10px;
     margin: 0;
     top: 0;
+    display: block;
 }
 
-.selected {opacity: 0.6;    
+.selected {
+    opacity: 0.6;
 }
 
 .mainmenustyle i {
@@ -81,7 +81,7 @@ footer {
     height: 60px;
 }
 
-#menu-wrap-center {
+.center-item {
     text-align: center;
 }
 
@@ -96,6 +96,7 @@ footer {
     font-size: 30px;
     margin-top: 5px;
     background-color: transparent;
+    display: inline-block;
 }
 
 .hamburger-menu-style span {
@@ -109,12 +110,11 @@ footer {
 }
 
 @media only screen and (max-width:767.9px) {
-    #mainmenu:active, #mainmenu:hover {
+    #mainmenu:active,
+    #mainmenu:hover {
         transform: translateY(-50px);
-    }
-    #mainmenu:hover, #mainmenu:hover {display: block;}
+   }
 }
-
 
 
 
@@ -123,14 +123,14 @@ footer {
 .song-line-1 {
     text-align: center;
     font-family: "Rock Salt", sans-serif;
-    font-size: 50px;
+    font-size: 45px;
     color: black;
 }
 
 .song-line-2 {
     text-align: center;
     font-family: "Rock Salt", sans-serif;
-    font-size: 35px;
+    font-size: 30px;
     color: black;
 }
 
@@ -138,19 +138,59 @@ footer {
 h1 {
     text-align: center;
     font-family: "Rock Salt", sans-serif;
-    font-size: 40px;
+    font-size: 35px;
     color: red;
 }
 
 h2 {
     text-align: center;
     font-family: "Rock Salt", sans-serif;
-    font-size: 20px;
+    font-size: 15px;
     color: grey;
 }
 
 .footer-text {
-    font-size: 20px;
+    font-size: 15px;
     color: black;
     font-family: "Rock Salt", sans-serif;
 }
+
+
+
+/* ......................................................................................................Style Booking Inputs
+.................................................................................................Adapted from code at www.w3schools.com */
+
+input[type=text],
+input[type=email],
+input[type=number],
+input[type=checkbox], select {
+    width: 95%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 95%;
+    background-color: #f44242;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #f75151;
+}
+
+input[type=checkbox] {
+    width: 25px;
+    height: 25px;
+}
+
+

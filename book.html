@@ -16,46 +16,47 @@
 <body>
 
 	<header>
-		<div class="row">
+		<nav>
+			<div class="row">
 
 
 
 
-			<div id="menu-wrap-center">
-				<div id="hamburger">
-					<ul class="list-inline clearfix">
-						<li class="hamburger-menu-style">
-							<a href="#"><i aria-hidden="true"></i><span> &#9776</span></a>
-						</li>
-					</ul>
+				<div class="center-item">
+					<div id="hamburger">
+						<ul class="list-inline clearfix">
+							<li class="hamburger-menu-style">
+								<a href="#"><i aria-hidden="true"></i><span> &#9776</span></a>
+							</li>
+						</ul>
+					</div>
+
+					<div id="mainmenu">
+						<ul class="list-inline clearfix">
+
+							<li class="mainmenustyle hvr-bounce-to-bottom" class="col-xs-6 col-s-3">
+								<a href="index.html"><i class="fa fa-guitar" aria-hidden="true"></i><span> The Band</span></a>
+							</li>
+
+							<li class="mainmenustyle  hvr-bounce-to-bottom" class="col-xs-6 col-sm-3">
+								<a href="videos.html"><i class="fa fa-video" aria-hidden="true"></i><span> Videos</span></a>
+							</li>
+
+							<li class="mainmenustyle hvr-bounce-to-bottom" class="col-xs-6 col-sm-3">
+								<a href="discography.html"><i class="fa fa-compact-disc" aria-hidden="true"></i><span> Discography</span></a>
+							</li>
+
+							<li class="selected mainmenustyle hvr-bounce-to-bottom" class="col-xs-6 col-sm-3">
+								<a href="book.html"><span>Book & Sign Up</span></a>
+							</li>
+
+						</ul>
+					</div>
 				</div>
 
-				<div id="mainmenu">
-					<ul class="list-inline clearfix">
 
-						<li class="mainmenustyle hvr-bounce-to-bottom" class="col-xs-6 col-s-3">
-							<a href="index.html"><i class="fa fa-guitar" aria-hidden="true"></i><span> The Band</span></a>
-						</li>
-
-						<li class="mainmenustyle  hvr-bounce-to-bottom" class="col-xs-6 col-sm-3">
-							<a href="videos.html"><i class="fa fa-video" aria-hidden="true"></i><span> Videos</span></a>
-						</li>
-						
-						<li class="mainmenustyle hvr-bounce-to-bottom" class="col-xs-6 col-sm-3">
-							<a href="discography.html"><i class="fa fa-compact-disc" aria-hidden="true"></i><span> Discography</span></a>
-						</li>
-
-						<li class="selected mainmenustyle hvr-bounce-to-bottom" class="col-xs-6 col-sm-3">
-							<a href="book.html"><span>Book & Sign Up</span></a>
-						</li>
-
-					</ul>
-				</div>
 			</div>
-
-
-		</div>
-
+		</nav>
 	</header>
 
 	<section>
@@ -69,7 +70,7 @@
 				<p>To Put</p>
 			</div>
 		</div>
-		
+
 		<div class="row col-12">
 			<div class="song-line-2">
 				<p>Anybody Down!</p>
@@ -77,195 +78,71 @@
 			<br></br>
 		</div>
 
+
+		<div class="center-item">
+			<img src="/band-assets/images/monkeesop.jpg" alt="Monkees Guitar" height="50" width="200" align="center">
+		</div>
+
+		<br></br>
+
+
+
 		<div class="row">
-			<div class="member">
-				<p>Micky Dolenz</p>
+			<div class="Sign-Up">
+				<p>
+					<h2>Make a Request To Book Us & Sign Up To Our Newsletter</h2>
+				</p>
 			</div>
 		</div>
 
+		<br></br>
+
 
 
 		<div class="row">
 
 			<div class="row">
-				<div class="media">
 
-					<div class="blurb">
-						<div class="col-xs-12 col-s-12 col-md-offset-2 col-md-2 col-lg-offset-2 col-lg-2">
-							<br></br>
-							<p>Born: 08/03/1945</p>
-							<p>In : Los Angeles, Calafornia, US.</p>
-							<p>Still Active</p>
-						</div>
+
+				<div class="blurb">
+					<div class="col-xs-12 col-s-12 col-md-offset-2 col-md-2 col-lg-offset-2 col-lg-2">
+
 					</div>
-
-					<div class="text-center" class="photo">
-						<div class="col-xs-12 col-s-12 col-md-offset-1 col-md-2 col-lg-offset-1 col-lg-2">
-							<a href="https://en.wikipedia.org/wiki/Micky_Dolenz" target="_blank">
-								<img src="/band-assets/images/md.jpg" class="img-circle mx-auto" alt="Micky Dolenz" height="200" width="300">
-							</a>
-						</div>
-					</div>
-
-					<div class="blurb">
-						<div class="col-xs-12 col-s-12 col-md-offset-1 col-md-2 col-lg-offset-1 col-lg-2">
-							<br></br>
-							<p>Band: Drums & Vocals</p>
-							<p>First Active: 23/09/1956
-								<p>(Circus Boy)</p>
-						</div>
-					</div>
-
-
-
-
 				</div>
+
+				<div class="text-center" class="photo">
+					<div class="col-xs-12 col-s-12 col-md-offset-1 col-md-2 col-lg-offset-1 col-lg-2">
+						<form action="https://ptsv2.com/t/9mbjw-1519746391/post">
+							<fieldset>
+								<label for "firstname">First Name:</label>
+								<input type="text" firstname="firstname" required>
+								<label for "secondname">Second Name:</label>
+								<input type="text" secondname="secondname" required>
+								<label for "contactnumber">Contact Number:</label>
+								<input type="number" contactnumber="contactnumber" required>
+								<label for "email">Email Address:</label>
+								<input type="email" email="email" required>
+								<label for "booking">Request A Booking:</label>
+								<input type="checkbox" name="booking" value="booking"> 
+								<label for "newsletter">Sign Up To Our Newsletter:</label>
+								<input type="checkbox" name="newsletter" value="newsletter">
+								<input type="submit">
+							</fieldset>
+
+						</form>
+					</div>
+				</div>
+
+				<div class="blurb">
+					<div class="col-xs-12 col-s-12 col-md-offset-1 col-md-2 col-lg-offset-1 col-lg-2">
+
+					</div>
+				</div>
+
+
 			</div>
 
-			<div class="row">
-				<div class="media">
-
-					<div class="member" class="col-xs-12 col-s-12 col-md-12 col-lg-12">
-						<br></br>
-						<p>Davy Jones</p>
-
-					</div>
-
-				</div>
-			</div>
-
-			<div class="row">
-
-				<div class="row">
-					<div class="media">
-
-
-						<div class="blurb">
-							<div class="col-xs-12 col-s-12 col-md-offset-2 col-md-2 col-lg-offset-2 col-lg-2">
-								<br></br>
-								<p>Born: 13/12/1945</p>
-								<p>In : Openshaw, Manchester, UK.</p>
-								<p>Died: 29/02/2012</p>
-								<p>In : Stuart, Florida, US.</p>
-							</div>
-						</div>
-
-						<div class="text-center" class="photo">
-							<div class="col-xs-12 col-s-12 col-md-offset-1 col-md-2 col-lg-offset-1 col-lg-2">
-								<a href="https://en.wikipedia.org/wiki/Davy_Jones_(musician)" target="_blank">
-									<img src="/band-assets/images/dj.jpg" class="img-circle mx-auto" alt="Davy Jones" height="200" width="300">
-								</a>
-							</div>
-						</div>
-
-						<div class="blurb">
-							<div class="col-xs-12 col-s-12 col-md-offset-1 col-md-2 col-lg-offset-1 col-lg-2">
-								<br></br>
-								<p>Band: Lead Vocals</p>
-								<p>First Active: 06/03/1961</p>
-								<p>(Coronation Street)</p>
-							</div>
-						</div>
-
-					</div>
-				</div>
-
-				<div class="row">
-					<div class="media">
-
-						<div class="member" class="col-xs-12 col-s-12 col-md-12 col-lg-12">
-							<br></br>
-							<p>Peter Tork</p>
-
-						</div>
-
-					</div>
-				</div>
-
-				<div class="row">
-
-					<div class="row">
-						<div class="media">
-
-							<div class="blurb">
-								<div class="col-xs-12 col-s-12 col-md-offset-2 col-md-2 col-lg-offset-2 col-lg-2">
-									<br></br>
-									<p>Born: 13/02/1942</p>
-									<p>In : Washington, D.C., US.</p>
-									<p>Still Active</p>
-								</div>
-							</div>
-
-							<div class="text-center" class="photo">
-								<div class="col-xs-12 col-s-12 col-md-offset-1 col-md-2 col-lg-offset-1 col-lg-2">
-									<a href="https://en.wikipedia.org/wiki/Peter_Tork" target="_blank">
-										<img src="/band-assets/images/pt.jpg" class="img-circle mx-auto" alt="Peter Tork" height="200" width="300">
-									</a>
-								</div>
-							</div>
-
-							<div class="blurb">
-								<div class="col-xs-12 col-s-12 col-md-offset-1 col-md-2 col-lg-offset-1 col-lg-2">
-									<br></br>
-									<p>Band: Bass Guitar & Vocals</p>
-									<p>First Active: 12/09/1966</p>
-									<p>(The Monkees TV Series)</p>
-								</div>
-							</div>
-
-						</div>
-					</div>
-
-					<div class="row">
-						<div class="media">
-
-							<div class="member" class="col-xs-12 col-s-12 col-md-12 col-lg-12">
-								<br></br>
-								<p>Michael Nesmith</p>
-
-							</div>
-
-						</div>
-					</div>
-
-					<div class="row">
-						<div class="media">
-
-							<div class="blurb">
-								<div class="col-xs-12 col-s-12 col-md-offset-2 col-md-2 col-lg-offset-2 col-lg-2">
-									<br></br>
-									<p>Born: 13/12/1942</p>
-									<p>In : Houston, Texas, U.S.</p>
-									<p>Still Active</p>
-								</div>
-							</div>
-
-							<div class="text-center" class="photo">
-								<div class="col-xs-12 col-s-12 col-md-offset-1 col-md-2 col-lg-offset-1 col-lg-2">
-									<a href="https://en.wikipedia.org/wiki/Michael_Nesmith" target="_blank">
-										<img src="/band-assets/images/mn.jpg" class="img-circle mx-auto" alt="Michael Nesmith" height="200" width="300">
-									</a>
-								</div>
-							</div>
-
-							<div class="blurb">
-								<div class="col-xs-12 col-s-12 col-md-offset-1 col-md-2 col-lg-offset-1 col-lg-2">
-									<br></br>
-									<p>Band: Guitar & Vocals</p>
-									<p>First Active: 12/09/1966</p>
-									<p>(The Monkees TV Series)</p>
-								</div>
-							</div>
-
-						</div>
-					</div>
-					<br></br>
-
-
-
-
-
-
+			<br></br>
 
 
 	</section>
