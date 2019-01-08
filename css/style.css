@@ -5,6 +5,8 @@
 
 /*.....................................................................................................Media Query Styling */
 
+/* larger screens, move hamburger menu off screen */
+
 @media only screen and (min-width:768px) {
     #mainmenu {
         transform: translateY(-55px);
@@ -14,6 +16,9 @@
     }
 
 }
+
+
+/* smaller screens, move main menu off screen */
 
 @media only screen and (max-width:767.9px) {
     #mainmenu {
@@ -61,7 +66,9 @@ footer {
     padding-top: 10px;
     margin: 0;
     top: 0;
-    display: block;
+    display: inline-block;
+    cursor: pointer;
+
 }
 
 .selected {
@@ -96,7 +103,8 @@ footer {
     font-size: 30px;
     margin-top: 5px;
     background-color: transparent;
-    display: inline-block;
+    display: block;
+    cursor: pointer;
 }
 
 .hamburger-menu-style span {
@@ -106,16 +114,18 @@ footer {
 
 
 #hamburger:active~#mainmenu {
-    transform: translateY(-50px);
+    transform: translateY(-55px);
+    
 }
 
 @media only screen and (max-width:767.9px) {
     #mainmenu:active,
     #mainmenu:hover {
-        transform: translateY(-50px);
-   }
+        transform: translateY(-55px);
+        display: grid;
+    
+    }
 }
-
 
 
 /* ................................................................................................Styling Headers */
@@ -138,7 +148,7 @@ footer {
 h1 {
     text-align: center;
     font-family: "Rock Salt", sans-serif;
-    font-size: 35px;
+    font-size: 30px;
     color: red;
 }
 
@@ -163,7 +173,8 @@ h2 {
 input[type=text],
 input[type=email],
 input[type=number],
-input[type=checkbox], select {
+input[type=checkbox],
+select {
     width: 95%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -192,5 +203,3 @@ input[type=checkbox] {
     width: 25px;
     height: 25px;
 }
-
-
