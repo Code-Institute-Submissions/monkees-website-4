@@ -42,7 +42,7 @@ header {
 /*Display Background Image - adapted from code @ css-tricks.com */
 
 body {
-    background: url(/band-assets/images/monkees1.png) no-repeat center 0px fixed;
+    background: url(/monkees-website/band-assets/images/monkees1.png) no-repeat center 0px fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
