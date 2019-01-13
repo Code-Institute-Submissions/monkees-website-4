@@ -1,9 +1,9 @@
-/*..............................................................................................Import Fonts */
+/*..........................................................Import Fonts */
 
 @import url('https://fonts.googleapis.com/css?family=Rock+Salt:100,200,300,400,500,600,700');
 
 
-/*.....................................................................................................Media Query Styling */
+/*...........................................................Media Query Styling */
 
 /* larger screens, move hamburger menu off screen */
 
@@ -31,7 +31,7 @@
 
 
 
-/*....................................................................................................Format screen areas*/
+/*..........................................................Format screen areas*/
 
 header {
     background-color: darkgrey;
@@ -51,9 +51,11 @@ body {
 
 footer {
     background-color: darkgrey;
+    padding: 30px;
 }
 
-/* ................................................................................................Styling Universal Main Menu */
+
+/* ........................................................Styling Universal Main Menu */
 
 .mainmenustyle {
     font-family: "rock salt", sans-serif;
@@ -94,7 +96,7 @@ footer {
 
 
 
-/* ................................................................................................Styling Hamburger Menu */
+/* ........................................................Styling Hamburger Menu */
 
 .hamburger-menu-style {
     text-align: center;
@@ -115,7 +117,7 @@ footer {
 
 #hamburger:active~#mainmenu {
     transform: translateY(-55px);
-    
+
 }
 
 @media only screen and (max-width:767.9px) {
@@ -123,12 +125,12 @@ footer {
     #mainmenu:hover {
         transform: translateY(-55px);
         display: grid;
-    
+
     }
 }
 
 
-/* ................................................................................................Styling Headers */
+/* ........................................................Styling Headers */
 
 .song-line-1 {
     text-align: center;
@@ -167,15 +169,15 @@ h2 {
 
 
 
-/* ......................................................................................................Style Booking Inputs
-.................................................................................................Adapted from code at www.w3schools.com */
+/* ........................................................Style Booking Inputs
+...........................................................Adapted from code at www.w3schools.com */
 
 input[type=text],
 input[type=email],
 input[type=number],
 input[type=checkbox],
 select {
-    width: 95%;
+    width: 75%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -184,22 +186,29 @@ select {
     box-sizing: border-box;
 }
 
-input[type=submit] {
-    width: 95%;
-    background-color: #f44242;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-input[type=submit]:hover {
-    background-color: #f75151;
-}
-
 input[type=checkbox] {
     width: 25px;
     height: 25px;
 }
+
+
+/*.............................................................Bootstrap Styling */
+
+.btn-info {
+    background-color: #f44242;
+    color: white;
+    border-color: #46b8da;
+    border-radius: 4px;
+    width: 95%;
+    padding: 14px 20px;
+    margin: 8px 0;
+    cursor: pointer;
+}
+
+.btn-info:hover {
+    background-color: #f75151;
+
+}
+
+.button {margin: 10px;}
+

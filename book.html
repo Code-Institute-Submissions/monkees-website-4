@@ -9,6 +9,7 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+
 	<title>Monkees Fan Site</title>
 
 </head>
@@ -112,7 +113,7 @@
 
 				<div class="text-center" class="photo">
 					<div class="col-xs-12 col-s-12 col-md-offset-1 col-md-2 col-lg-offset-1 col-lg-2">
-						<form action="https://ptsv2.com/t/9mbjw-1519746391/post">
+						<form action="#SignUpModal">
 							<fieldset>
 								<label for "firstname">First Name:</label>
 								<input type="text" firstname="firstname" required>
@@ -123,15 +124,42 @@
 								<label for "email">Email Address:</label>
 								<input type="email" email="email" required>
 								<label for "booking">Request A Booking:</label>
-								<input type="checkbox" name="booking" value="booking"> 
+								<input type="checkbox" name="booking" value="booking">
 								<label for "newsletter">Sign Up To Our Newsletter:</label>
 								<input type="checkbox" name="newsletter" value="newsletter">
-								<input type="submit">
-							</fieldset>
 
+								<!-- Adapted From Code At https://www.w3schools.com/bootstrap -->
+								<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#BookingResponse">Submit.</button>
+
+								<!-- Modal HTML Markup -->
+								<div class="modal fade" id="BookingResponse" role="dialog">
+									<div class="modal-dialog">
+
+										<!-- Modal content-->
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal">&times;</button>
+												<h4 class="modal-title">There's Always Something New...</h4>
+											</div>
+											<div class="modal-body">
+												<p>Thank-You For Your Details....</p>
+												<p>We Will Be In Touch Very Soon....</p>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+
+									</div>
+								</div>
 						</form>
 					</div>
 				</div>
+
+				<!-- Modal -->
+
+
+
 
 				<div class="blurb">
 					<div class="col-xs-12 col-s-12 col-md-offset-1 col-md-2 col-lg-offset-1 col-lg-2">
@@ -140,9 +168,18 @@
 				</div>
 
 
+
+
 			</div>
 
 			<br></br>
+
+			<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>*//
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 
 
 	</section>
