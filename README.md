@@ -25,33 +25,44 @@ New Fan (Inspired By My Children):	"As somone interested in older music pre 80's
 Potential Customer (Inspired By Neighbour) 	"As a potential customer, I'd like an easy way to contact the band to make a booking and to be sent
 						information of upcoming events".
 
-**************************
-*******  WIRE-FRAMES *****
-**************************
+
+I also produced wireframes of my website before starting:
+
+see my repository's file list:
+
+Wireframe-band.pdf
+Wireframe-book.pdf
+Wireframe-disc.pdf
+Wireframe-video.pdf
+
 
 ## Features
 
-Header:			1.	The header contains the main nav bar, which allows the user to navigate between each page.
-Footer:			2.	The footer contains the social media links, allowing the user to navigate to the band's social media
-				pages in each of the most common sites.	
-The Band Page:		3.	This page introduces the members of the band and gives a little bit of information about each member.
-			4.	Each Member's photograph is a link to their own Wikipedia page which gives more informaton if required.
-The Videos Page:	5.	This page allows the user to click on videos and watch clips of the Monkees songs and from the TV show.
-The Discography Page:	6.	This page allows the user to click on a song from the Monkees back catalogue, it also provides information
-				about the song and the album that it was on.
-Book & Signup Page:	7.	This page allows the user to give their details, including their email address, to make a request to book the
-				band.
-			8.	This page also allows the user to give their details, including their email address, to sign up to the Band;s
-				Newsletter.
-			9.	For convenience features 8 & 9 can be completed together, to prevent user frustration.
+Header:			1.	The header contains the main nav bar, which allows the user to navigate
+					between each page.
+Footer:			2.	The footer contains the social media links, allowing the user to navigate 
+					to the band's social media pages in each of the most common sites.	
+The Band Page:	3.	This page introduces the members of the band and gives a little bit of 
+					information about each member.
+				4.	Each Member's photograph is a link to their own Wikipedia page which gives 
+					more informaton if required.
+The Videos Page:5.	This page allows the user to click on videos and watch clips of the Monkees 
+					songs and from the TV show.
+The Disc Page:	6.	This page allows the user to click on a song from the Monkees back catalogue, 
+					it also provides information about the song and the album that it was on.
+Book & Signup :	7.	This page allows the user to give their details, including their email address, 
+					to make a request to book the band.
+				8.	This page also allows the user to give their details, including their email 
+					address, to sign up to the Band's Newsletter.
+				9.	For convenience features 8 & 9 can be completed together, to prevent user frustration.
 		
-
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
 
 ### Features Left to Implement
 			
-			1.	Provide an online booking feature to allow the user to look up the band's commitments and to physically book the band.
-			2.	Provide an open forum so that users can add in their own videos etc to increase the material available.
+			1.	Provide an online booking feature to allow the user to look up the band's commitments 
+				and to physically book the band.
+			2.	Provide an open forum so that users can add in their own videos etc to increase the 
+				material available.
 
 ## Technologies Used
 
@@ -63,8 +74,8 @@ In this section, you should go over the different parts of your project, and des
 
 			4.	BOOTSTRAP	- Bootstrap was used to provide fleible layout patterns across the page using the grid system.
 
-			5.	FONT AWESOME	- Font Awesome was used to provide relevant icons for social media and to give the Nav Bar extra
-						  visual identity.
+			5.	FONT AWESOME- Font Awesome was used to provide relevant icons for social media and to give the Nav Bar extra
+							  visual identity.
 
 ## Testing
 
@@ -87,8 +98,8 @@ After deployment the site has been tested for the above on:
 
 Issues:
 
-	1.	My main issue has been with the navbar for x-small and small screens and getting this to perform as I have wanted it to.
-		I have been unable as of yet to get it to stack vertically and also to have smooth transitions that I had wanted.
+	1.	The Submit in My Booking Page Turns Blue after clcking it, and stays blue until you re-enter the page
+	2.	In Some Browsers the glaze effect on my main mavigation bar is blue.
 
 
 ## Deployment
