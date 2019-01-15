@@ -89,6 +89,9 @@ footer {
 
 .hvr-bounce-to-bottom:before {
     background: rgb(255, 255, 255, 0.3);
+    -webkit-background: rgb(255, 255, 255, 0.3);
+    -moz-background: rgb(255, 255, 255, 0.3);
+    -o-background: rgb(255, 255, 255, 0.3);
     height: 60px;
 }
 
@@ -109,8 +112,8 @@ footer {
 }
 
 button {
-    width: 40px;
-    height: 60px;
+    width: 60px;
+    height: 40px;
     margin: 10px;
     color: white;
     cursor: pointer;
@@ -157,6 +160,8 @@ button {
 
 .hamburger-menu-reveal {
     width: 150px;
+    height:60px;
+    background-color:darkgrey;
     position: relative;
 
 }
