@@ -9,6 +9,8 @@ It is also a tool to introduce the band (In the Band Section), their songs and t
 page that allows any fans, new or old, to request the chance to book the band for an event (via the Book & Sign Up Page).  Using this last
 page they can also request to be added to the mailing list to be kep up to date with any new releases or concerts etc. 
 
+See Brief.doc in my Repository
+
 
 ## UX
 
@@ -28,7 +30,7 @@ Potential Customer (Inspired By Neighbour) 	"As a potential customer, I'd like a
 
 I also produced wireframes of my website before starting:
 
-see my repository's file list:
+See my repository's file list:
 
 Wireframe-band.pdf
 Wireframe-book.pdf
