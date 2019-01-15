@@ -105,11 +105,12 @@ footer {
     max-height: 60px;
     background-color: darkgrey;
     position: absolute;
+    z-index: 1;
 }
 
 button {
-    width: 60px;
-    height: 40px;
+    width: 40px;
+    height: 60px;
     margin: 10px;
     color: white;
     cursor: pointer;
@@ -175,14 +176,14 @@ button {
 .song-line-1 {
     text-align: center;
     font-family: "Rock Salt", sans-serif;
-    font-size: 45px;
+    font-size: 40px;
     color: black;
 }
 
 .song-line-2 {
     text-align: center;
     font-family: "Rock Salt", sans-serif;
-    font-size: 30px;
+    font-size: 25px;
     color: black;
 }
 
@@ -190,7 +191,7 @@ button {
 h1 {
     text-align: center;
     font-family: "Rock Salt", sans-serif;
-    font-size: 30px;
+    font-size: 25px;
     color: red;
 }
 
@@ -240,7 +241,6 @@ input[type=checkbox] {
     border-color: #46b8da;
     border-radius: 4px;
     width: 60%;
-   
     cursor: pointer;
     
 }
