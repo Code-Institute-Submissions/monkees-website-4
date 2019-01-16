@@ -18,14 +18,14 @@ As part of the development process User Stories have to be collated.  For this p
 follows:
 
 
-Existing Fan (Inspired By My Dad):  	"As a fan I want to be able to look up information on the band members, and to listen to some of the songs 
-					that I enjoy".
+Existing Fan (Inspired By My Dad):  	
+"As a fan I want to be able to look up information on the band members, and to listen to some of the songs that I enjoy".
 
-New Fan (Inspired By My Children):	"As somone interested in older music pre 80's, I'd like to see the band perform, and listen to some of their
-					tracks"
+New Fan (Inspired By My Children):	
+"As somone interested in older music pre 80's, I'd like to see the band perform, and listen to some of their tracks"
 
-Potential Customer (Inspired By Neighbour) 	"As a potential customer, I'd like an easy way to contact the band to make a booking and to be sent
-						information of upcoming events".
+Potential Customer (Inspired By Neighbour) 	
+"As a potential customer, I'd like an easy way to contact the band to make a booking and to be sent information of upcoming events".
 
 
 I also produced wireframes of my website before starting:
@@ -40,31 +40,21 @@ Wireframe-video.pdf
 
 ## Features
 
-Header:			1.	The header contains the main nav bar, which allows the user to navigate
-					between each page.
-Footer:			2.	The footer contains the social media links, allowing the user to navigate 
-					to the band's social media pages in each of the most common sites.	
-The Band Page:	3.	This page introduces the members of the band and gives a little bit of 
-					information about each member.
-				4.	Each Member's photograph is a link to their own Wikipedia page which gives 
-					more informaton if required.
-The Videos Page:5.	This page allows the user to click on videos and watch clips of the Monkees 
-					songs and from the TV show.
-The Disc Page:	6.	This page allows the user to click on a song from the Monkees back catalogue, 
-					it also provides information about the song and the album that it was on.
-Book & Signup :	7.	This page allows the user to give their details, including their email address, 
-					to make a request to book the band.
-				8.	This page also allows the user to give their details, including their email 
-					address, to sign up to the Band's Newsletter.
+Header:			1.	The header contains the main nav bar, which allows the user to navigate between each page.
+Footer:			2.	The footer contains the social media links, allowing the user to navigate to the band's social media pages in each of the most common sites.	
+The Band Page:	3.	This page introduces the members of the band and gives a little bit of information about each member.
+				4.	Each Member's photograph is a link to their own Wikipedia page which gives more informaton if required.
+The Videos Page:5.	This page allows the user to click on videos and watch clips of the Monkees songs and from the TV show.
+The Disc Page:	6.	This page allows the user to click on a song from the Monkees back catalogue, it also provides information about the song and the album that it was on.
+Book & Signup :	7.	This page allows the user to give their details, including their email address, to make a request to book the band.
+				8.	This page also allows the user to give their details, including their email address, to sign up to the Band's Newsletter.
 				9.	For convenience features 8 & 9 can be completed together, to prevent user frustration.
 		
 
 ### Features Left to Implement
 			
-				1.	Provide an online booking feature to allow the user to look up the band's commitments 
-					and to physically book the band.
-				2.	Provide an open forum so that users can add in their own videos etc to increase the 
-					material available.
+				1.	Provide an online booking feature to allow the user to look up the band's commitments and to physically book the band.
+				2.	Provide an open forum so that users can add in their own videos etc to increase the material available.
 
 ## Technologies Used
 
@@ -74,26 +64,20 @@ Book & Signup :	7.	This page allows the user to give their details, including th
 
 				3.	CSS 3		- The pages were styled using CSS3.
 
-				4.	BOOTSTRAP	- Bootstrap was used to provide fleible layout patterns across the page 
-								  using the grid system.
+				4.	BOOTSTRAP	- Bootstrap was used to provide fleible layout patterns across the page using the grid system.
 
-				5.	FONT AWESOME- Font Awesome was used to provide relevant icons for social media and to 
-								  give the Nav Bar extra visual identity.
+				5.	FONT AWESOME- Font Awesome was used to provide relevant icons for social media and to give the Nav Bar extra visual identity.
 
 ## Testing
 
 Each new feature had been tested after each stage of development within the CLOUD 9 environment.  This has included:
 
 				1.	Checking layout after each set of changes.  
-				2.	Checking the menus to make sure that they navigate to the desired page and indicate that they 
-					are on the correct page.  
-				3.	Checking the footer links to social media to make sure that they navigate to the Monkees page 
-					on the relevant site.
+				2.	Checking the menus to make sure that they navigate to the desired page and indicate that they are on the correct page.  
+				3.	Checking the footer links to social media to make sure that they navigate to the Monkees page on the relevant site.
 				4	Checking that the band photos navigate to the relevant page on Wikipedia.
-				5.	Checking that the Sign-up features do not allow blank input and only allow valid information 
-					like email address etc.
-				6.	Checking that all of these features work on, each breakpoint, across screens sizes from small 
-					to x-large.
+				5.	Checking that the Sign-up features do not allow blank input and only allow valid information like email address etc.
+				6.	Checking that all of these features work on, each breakpoint, across screens sizes from small to x-large.
 
 After deployment the site has been tested for the above on:
 
@@ -110,8 +94,7 @@ Issues:
 				3.  The HTML validator threw up three "erros" that I couldn't solve:	
 					i.		An error with my input labels on the booking page
 					ii.		An error with my inputs on the booking page
-					iii.	An error with multiple class attributes on the same line, in my main menu, which wouldn't work 
-							any other way.
+					iii.	An error with multiple class attributes on the same line, in my main menu, which wouldn't work any other way.
 
 
 ## Deployment
