@@ -37,6 +37,8 @@ Wireframe-book.pdf
 Wireframe-disc.pdf
 Wireframe-video.pdf
 
+Which are located in the Wireframe directory.
+
 
 ## Features
 
