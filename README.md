@@ -61,69 +61,81 @@ Book & Signup :	7.	This page allows the user to give their details, including th
 
 ### Features Left to Implement
 			
-			1.	Provide an online booking feature to allow the user to look up the band's commitments 
-				and to physically book the band.
-			2.	Provide an open forum so that users can add in their own videos etc to increase the 
-				material available.
+				1.	Provide an online booking feature to allow the user to look up the band's commitments 
+					and to physically book the band.
+				2.	Provide an open forum so that users can add in their own videos etc to increase the 
+					material available.
 
 ## Technologies Used
 
-			1.	CLOUD 9		- All the HTML/CSS was edited using CLOUD 9.
+				1.	CLOUD 9		- All the HTML/CSS was edited using CLOUD 9.
+	
+				2.	HTML 5 		- The base page has been created in HTML5.
 
-			2.	HTML 5 		- The base page has been created in HTML5.
+				3.	CSS 3		- The pages were styled using CSS3.
 
-			3.	CSS 3		- The pages were styled using CSS3.
+				4.	BOOTSTRAP	- Bootstrap was used to provide fleible layout patterns across the page 
+								  using the grid system.
 
-			4.	BOOTSTRAP	- Bootstrap was used to provide fleible layout patterns across the page using the grid system.
-
-			5.	FONT AWESOME- Font Awesome was used to provide relevant icons for social media and to give the Nav Bar extra
-							  visual identity.
+				5.	FONT AWESOME- Font Awesome was used to provide relevant icons for social media and to 
+								  give the Nav Bar extra visual identity.
 
 ## Testing
 
 Each new feature had been tested after each stage of development within the CLOUD 9 environment.  This has included:
 
-	1.	Checking layout after each set of changes.  
-	2.	Checking the menus to make sure that they navigate to the desired page and indicate that they are on the correct page.  
-	3.	Checking the footer links to social media to make sure that they navigate to the Monkees page on the relevant site.
-	4	Checking that the band photos navigate to the relevant page on Wikipedia.
-	5.	Checking that the Sign-up features do not allow blank input and only allow valid information like email address etc.
-	6.	Checking that all of these features work on, each breakpoint, across screens sizes from small to x-large.
+				1.	Checking layout after each set of changes.  
+				2.	Checking the menus to make sure that they navigate to the desired page and indicate that they 
+					are on the correct page.  
+				3.	Checking the footer links to social media to make sure that they navigate to the Monkees page 
+					on the relevant site.
+				4	Checking that the band photos navigate to the relevant page on Wikipedia.
+				5.	Checking that the Sign-up features do not allow blank input and only allow valid information 
+					like email address etc.
+				6.	Checking that all of these features work on, each breakpoint, across screens sizes from small 
+					to x-large.
 
 After deployment the site has been tested for the above on:
 
-	1.	iPhone 5s on portrait screen.
-	2.	iPhone 5s on landscape screen.
-	3.	iPad Air 2 on portrait screen.
-	4.	iPad Air 2 on landscape screen.	
-	5. 	Hanns-G 20" widescreen monitor.
+				1.	iPhone 5s on portrait screen.
+				2.	iPhone 5s on landscape screen.
+				3.	iPad Air 2 on portrait screen.
+				4.	iPad Air 2 on landscape screen.	
+				5. 	Hanns-G 20" widescreen monitor.
 
 Issues:
 
-	1.	The Submit in My Booking Page Turns Blue after clcking it, and stays blue until you re-enter the page
-	2.	In Some Browsers the glaze effect on my main mavigation bar is blue.
+				1.	The Submit in My Booking Page Turns Blue after clcking it, and stays blue until you re-enter the page
+				2.	In Some Browsers the glaze effect on my main mavigation bar is blue.
+				3.  The HTML validator threw up three "erros" that I couldn't solve:	
+					i.		An error with my input labels on the booking page
+					ii.		An error with my inputs on the booking page
+					iii.	An error with multiple class attributes on the same line, in my main menu, which wouldn't work 
+							any other way.
 
 
 ## Deployment
 
 This project has been deployed via GitHub at https://keefm6776.github.io/monkees-website/index.html.  
 
-Whilst deploying my project I had issues with all my file references because I did not make them specific enough to work when moving over to 
-GitHub, even though they worked perfectly in Cloud9.  This was just a case of including the website name at the beginning of the path.
+Whilst deploying my project I had issues with all my file references because I did not make them specific enough to work when 
+moving over to GitHub, even though they worked perfectly in Cloud9.  This was just a case of including the website name at the 
+beginning of the path.
 
 ## Credits
 
 ### Content
-- The information used in my project has been taken from Wikipedia.  (https://en.wikipedia.org/wiki/The_Monkees)
+				- The information used in my project has been taken from Wikipedia.  (https://en.wikipedia.org/wiki/The_Monkees)
 
 ### Media
-- The photos used in this site were obtained from the band assets provided by the band.
-- The album covers were obtained from Wikipedia. (https://en.wikipedia.org/wiki/The_Monkees)
-- Additional video clips were obtained from Youtube
-- Additional audio clips were downlaoded from Youtube
+				- The photos used in this site were obtained from the band assets provided by the band.
+				- The album covers were obtained from Wikipedia. (https://en.wikipedia.org/wiki/The_Monkees)
+				- Additional video clips were obtained from Youtube
+				- Additional audio clips were downlaoded from Youtube
 
 ### Acknowledgements
 
-- I received inspiration for this project from The "Whiskey Drop" project in the course for using a "Hero" image
-- I received inspiration for the nav bar from CSS course notes.
-- I received inspiration for styling the bookin page from www.w3schools.com
+				- I received inspiration for this project from The "Whiskey Drop" project in the course for using a "Hero" image
+				- I received inspiration for the nav bar from CSS course notes.
+				- I received inspiration for styling the booking page from www.w3schools.com
+				- Last But Not Least, Thanks To The Monkees For Recording Some Great Songs!!
